@@ -3,9 +3,9 @@ import TestimoniProps from '../../interfaces/TestimoniProps';
 
 const CardTestimoni: React.FC<TestimoniProps> = ({ name, role, workplace, description}) => {
     return (
-        <div className=' container w-297 h-303 bg-c3 rounded-std box-border absolute border-1 border-c4 border-solid p-5 '>
+        <div className=' container w-297 h-303 bg-c3 rounded-[10px] box-border absolute border-1 border-c4 border-solid p-5 '>
             <div className='flex gap-3'>
-                <div className=' w-78 h-85 bg-c5 rounded-card'></div>
+                <div className=' w-78 h-85 bg-c5 rounded-[20px]'></div>
                 <div>
                     <h5 className=' font-bold text-sm text-c6'>{name}</h5>
                     <p className=' text-xs my-2 text-c6'>{role}</p>
@@ -21,5 +21,6 @@ const CardTestimoni: React.FC<TestimoniProps> = ({ name, role, workplace, descri
         </div>
     )
 }
+
 
 export default CardTestimoni;
