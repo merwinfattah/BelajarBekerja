@@ -3,7 +3,7 @@ import MentorProps from '../../interfaces/MentorProps';
 
 const CardMentor: React.FC<MentorProps> = ({name, role, workplace, title, price}) => {
     return (
-        <div className=' w-[297px] h-[354px] rounded-std overflow-hidden font-poppins'>
+        <div className=' w-[297px] h-[354px] rounded-[10px] overflow-hidden font-poppins'>
             <div className=' bg-c5 h-[160px] p-[10px]'>
                 <div className=' rounded-[5px] bg-c2 w-[68px] h-[28px] text-center text-xs py-[5px] px-[14px] text-[#383838]'>Kursus</div>
             </div>

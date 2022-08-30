@@ -3,7 +3,7 @@ import TestimoniProps from '../../interfaces/TestimoniProps';
 
 const CardTestimoni: React.FC<TestimoniProps> = ({ name, role, workplace, description}) => {
     return (
-        <div className=' container w-297 h-303 bg-c3 rounded-[10px] box-border absolute border-1 border-c4 border-solid p-5 '>
+        <div className='  w-297 h-303 bg-c3 rounded-[10px]   border-1 border-c4 border-solid p-5 '>
             <div className='flex gap-3'>
                 <div className=' w-78 h-85 bg-c5 rounded-[20px]'></div>
                 <div>

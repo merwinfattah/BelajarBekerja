@@ -1,11 +1,12 @@
 import React from 'react';
+import ButtonProps from './../../interfaces/ButtonProps';
 
 
 
-const ButtonMedium: React.FC = () => {
+const ButtonMedium: React.FC<ButtonProps>= ({width, text, color='bg-c1', radius=10, textColor='text-c2'}) => {
     return (
-        <button className=' w-24 h-10 bg-c1 rounded-[10px] flex flex-row justify-center items-center pt-2.5 px-6 pb-9px text-c2 font-poppins font-semibold gap-2.5 text-sm'>
-            Button
+        <button className={` w-[${width}px] h-10 ${color} rounded-[${radius}px] flex flex-row justify-center items-center pt-2.5 px-6 pb-9px ${textColor} font-poppins font-semibold gap-2.5 text-sm`}>
+            {text}
         </button>
     )
 }

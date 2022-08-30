@@ -9,9 +9,9 @@ import NavbarProps from '../../interfaces/NavbarProps';
 const Navbar: React.FC<NavbarProps> = ({isLogin}) => {
 
     return(
-        <nav className='flex justify-center w-screen h-[88px] font-poppins pl-[96px] pr-[48px] bg-c2 drop-shadow-md'>
-            <div className= 'container flex items-center gap-80 '>
-                <div className='flex gap-20 items-center'>
+        <nav className='w-full h-[88px] font-poppins  bg-c2 drop-shadow-md'>
+            <div className= 'container mx-auto px-5 flex items-center gap-56 '>
+                <div className='flex gap-16 items-center'>
                     <div className=' w-[137.51px] h-[56px]'>
                         {/* logo BB */}
                         <img src={Logo} alt='logo'/>
@@ -40,17 +40,17 @@ const Navbar: React.FC<NavbarProps> = ({isLogin}) => {
                 </div>
                 <div className='flex gap-20 text-[#4F4F4F] items-center'>
                     <div className='flex gap-10 items-center'>
-                        <div className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
-                            <AiOutlineSearch className=' w-[23.34px] h-[23.33px] hover:cursor-pointer' />
-                        </div>
-                        <div className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
+                        <button className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
+                            <AiOutlineSearch className=' w-[23.34px] h-[23.33px] ' />
+                        </button>
+                        <button className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
                             <MdNotificationsNone className=' w-[23.34px] h-[23.33px] hover:cursor-pointer' />
                             <div className=' bg-[#EE6D2D] rounded-full w-[9px] h-[9px] relative -top-5 -right-3  text-c2 text-[8px] text-center py-0.5' ></div>
-                        </div>
-                        <div className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
+                        </button>
+                        <button className=' w-[32px] h-[32px] rounded-[8px] hover:bg-[#E0E0E0] py-[4.33px] px-[4.33px]'>
                             <MdOutlineShoppingCart className=' w-[23.34px] h-[23.33px] hover:cursor-pointer' />
                             <div className=' bg-[#EE6D2D] rounded-full w-[16px] h-[16px] relative -top-7 -right-3  text-c2 text-[8px] text-center py-0.5' >8</div>
-                        </div>
+                        </button>
                         <div className={`${isLogin? 'hidden': 'flex'} items-center gap-8`}>
                             <a href='#masuk' className=' text-sm text-c1 font-semibold'>
                                 Masuk

@@ -18,7 +18,7 @@ const tagStyling = (type: string) => {
 const CourseTag: React.FC<CourseCategory> = ({courseName}) => {
     let tagStyle = tagStyling(courseName);
     return (
-        <div className={`w-[${tagStyle.width}] h-8 pt-2 px-2.5 pb-9px text-[10px] text-center text-c2 rounded-[25px] bg-${tagStyle.color}`}>
+        <div className={`w-[${tagStyle.width}] h-8 pt-2 px-2.5 pb-9px text-[10px] text-center text-c2 rounded-[25px] bg-[${tagStyle.color}]`}>
             {courseName}
         </div>
         
