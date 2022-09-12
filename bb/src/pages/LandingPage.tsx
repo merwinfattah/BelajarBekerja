@@ -25,7 +25,7 @@ const LandingPage = () => {
             </header>
             <main className=' font-poppins'>
                 <section className=' w-full h-[772px] bg-cover bg-no-repeat bg-center' style={{backgroundImage: `url(${AnimationLandingPage})`}}>
-                    <article className='relative top-72 left-40 text-c2 font-bold max-w-[559px]'>
+                    <article className='relative top-72 left-40  text-c2 font-bold max-w-[559px]'>
                         <h1 className=' text-5xl '>Belajar Skill Baru Langsung Dari Ahlinya</h1>
                         <p className=' font-[400] my-14'>
                         Dari kursus berkualitas hingga sesi mentoring privat, Belajar Bekerja
@@ -125,7 +125,7 @@ const LandingPage = () => {
                     </article>
                 </section>
                 <section className=' bg-[#F9FAFB] w-full h-[532px] mb-[108px] pt-[56px] pl-[96px] pr-[90px] pb-[103px]'>
-                    <article className='flex gap-[555px] justify-center'>
+                    <article className='flex justify-between'>
                         <h2 className=' text-[32px] font-semibold text-[#383838]'>Apa Kata Mereka?</h2>
                         <p className=' text-sm font-[400] w-[349.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim mattis netus felis phasellus nisi.</p>
                     </article>
@@ -161,7 +161,7 @@ const LandingPage = () => {
                     <h2 className=' text-center text-[32px] text-[#383838] font-bold'>Siap jadi mentee produktif!</h2>
                     <p className='font-[400] text-[20px] text-center mt-[10px]'>Kami akan kirimkan info seputar kursus, mentoring, webinar, hingga tips dalam berkarir, ke e-mail kamu. No spam, promise!</p>
                     <div className='flex mt-[27px] justify-center'>
-                        <InputBox borderColor='border-c1' placeholder='E-mail Kamu' textColor='text-c1'/>
+                        <InputBox borderColor='border-c1' placeholder='E-mail Kamu' textColor='text-c1' width='w-[400px]' id='E-mail Kamu'/>
                     </div>
                     <div className='flex mt-[27px] justify-center'>
                         <ButtonMedium width={86} text='Kirim' />

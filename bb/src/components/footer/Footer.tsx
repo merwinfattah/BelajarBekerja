@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
             <hr className=' bg-[#383838] h-[2px] web:mt-6 smartphone:mt-1  web:block '></hr>
-            <div className=' web:text-center web:pb-[30px] web:pt-[26px] web:text-xs smartphone:text-[10px] smartphone:p-[16px]'>Copyright @ 2022.BelajarBekerja Kawan Kerja.All Rights Reserved</div>
+            <div className=' web:text-center  web:pt-[26px]  web:text-xs smartphone:text-[10px] smartphone:p-[16px]'>Copyright @ 2022.BelajarBekerja Kawan Kerja.All Rights Reserved</div>
         </footer>
     )
 
